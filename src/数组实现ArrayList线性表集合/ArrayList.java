@@ -59,8 +59,8 @@ public class ArrayList implements List {
         size--;
         return removeObj;
     }
-    //修改元素
 
+    //修改元素
     @Override
     public Object set(int index, Object element) {
         elementData[index] = element;
